@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body a{
+    text-decoration: none;
+}
+
+.headInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container{
+    max-width: 1410px;
+    margin: auto;
+}
+
+.logoInfo{
+    display: flex;
+}
+
+.logoInfo a{
+    margin: auto;
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+ 
+}
+.aboutInfo{
+    margin-left: 10%;
+}
+.profileInfo {
+    display: flex;
+}
+.profileInfo p{
+   
+}
+.aboutInfo a{
+    font-size: 24px;    
+    padding: 2px;
+    transition: 0.3s;
+}
+.aboutInfo a:hover{
+    background-color: #00887A;
+    padding: 2px;
+    transition: 0.3s;
+    border-radius: 10px;
+    color: white;
+}
+.aboutA{
+    color: black;
+}
+
+.lentaAbout{
+    background-color: #00887A;
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+
+}
+footer{
+    position: relative;
+    height: 213px; 
+    width: 100%;
+}
+.containerFooter{ 
+    width: 100%;
+    height: 213px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #00887A;
+}
+.main{
+   
+}
+
+.FooterDiv {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    min
+}
+.main, .headInfo{
+    width: 100%;
+    min-height: 1px;
+}
+
+@media (min-width:990px){
+    .headInfo{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        order: 1;
+    }
+    .main{
+        flex-direction: 0 0 66.6666667%;
+        max-width: 66.666667%;
+        order: 2;
+    }
+} */
